@@ -66,7 +66,7 @@ function Player() {
                 <input type="submit" value="Submit"></input>
             </form>
 
-            <button onClick={getName}>names</button>
+            <button onClick={getName}>Names</button>
             <button onClick={getStats}>Stats</button>
         </div>
     );
