@@ -1,3 +1,6 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,70 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header h1{
+  font-family: 'Anton', sans-serif;
+}
+.header{
+  /* margin-bottom: 40px; */
+  width:100%;
+
+}
+.logo{
+  height: 40vh;
+  position: relative;
+  width: auto;
+  float: left;
+  top: 0;
+  left: 0;
+ 
+
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+
+}
+.game{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 15%;
+}
+.search{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.thing:hover {
+background-color:#DFDCDC;
+}
+.thing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  border: 3px solid black;
+  border-radius: 3px;
+  /* padding: 10px; */
+  background-color: white;
+}
+.input{
+  background-color: white;
+  height: 3vh;
+  border: 3px solid black;
+
+  margin-right: 10px;
+  border-radius: 3px;
+
+
+}
+.bluedude{
+  height: 8vh;
+}
+.statdisplay{
+  padding: 10%;
+  border: 3px solid #c1e5e6;
 }
