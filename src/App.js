@@ -116,7 +116,7 @@ function App(props) {
         <img src="./logo.png" className="logo"></img>
       </div>
       <div className="page">
-        <h1>See how they level up</h1>
+        <h1>See how the two players match up</h1>
       </div>
 
       <div className="game">
